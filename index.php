@@ -25,7 +25,9 @@
 		<script src="js/sorting.js" type="text/javascript"></script>
 		<script src="js/jquery.isotope.js" type="text/javascript"></script>
 		<!--script type="text/javascript" src="js/jquery.nav.js"></script-->
-		
+		<?php
+		include('portfolio.php');
+		?>
 
 		<script>
 			jQuery(function(){
@@ -102,8 +104,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 cBusiness">
-					<h3>The Best Way to Create Business Site &ndash; Attractive One Page</h3>
-					<h4>Discover elegant solution for your online business fast, reliable, affordable.</h4>
+					<h3>Designers elegantes e funcionais</h3>
+					<h4>Soluções para seu negócio, divulgue sua empresa e serviços, automatize seus dados para <br>conseguir gerencia-los e controlar suas informações com o auxilio da tecnologia.</h4>
 				</div>
 			</div>
 		</div>
@@ -124,18 +126,18 @@
 				<div class="row Fresh">
 					<div class="col-md-4 Des">
 						<i class="fa fa-heart"></i>
-						<h4>Fresh & Clean Design</h4>
-						<p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat </p>
+						<h3>Análise do seu negócio</h3>
+						<p><h4>Receba nosso analista para avaliar todos os seus problemas e juntos montar uma estratégia para gerenciar melhor seu projeto.</h4></p>
 					</div>
 					<div class="col-md-4 Ver">
 						<i class="fa fa-cog"></i>
-						<h4>Very Flexible</h4>
-						<p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat </p>
+						<h3>Segurança de seus dados</h3>
+						<p><h4>Proteja suas informações atravéz das tecnologias de informações.</h4></p>
 					</div>
 					<div class="col-md-4 Fully">
 						<i class="fa fa-tablet"></i>
-						<h4>Fully Responsive</h4>
-						<p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat </p>
+						<h3>Acessibilidade</h3>
+						<p><h4>Acesse os sistemas de qualquer lugar do mundo e em qualquer dispositivo móvel.</h4></p>
 					</div>		
 				</div>
 			</div>
@@ -145,7 +147,7 @@
 				<div class="col-md-12 wwa">
 					<span name="about" ></span>
 					<h3>Equipe responsável pelos projetos</h3>
-					<h4>Sistemas desenvolvidos com as maiores e melhores tecnologias do mercado, com designers elegantes e conteúdos.</h4>
+					<h4>Sistemas desenvolvidos com as maiores e melhores tecnologias do mercado, com designers elegantes e conteúdos. Além de possui uma equipe técnica para realizar todo o mapeamento e estruturação do seu negócio ou serviço.</h4>
 				</div>
 			</div>
 		</div>
@@ -156,6 +158,7 @@
 						<h4>Renan Jhonatha</h4>
 						<h5>Analista e Desenvolvedor</h5>
 						<p>Bacharel em Sistemas de informação, Pós Graduado em Governança de TI, desenvolvedor de sistemas, gerente de projetos.</p>
+						<p><a href="#renan" role="button" class="btn btn-info" data-toggle="modal">Portfólio +</a></p>
 						<ul>
 							<li><a href="https://www.facebook.com/renan.kabal"><i class="fa fa-facebook-square"></i></a></li>
 							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
@@ -169,7 +172,8 @@
 						<img class="img-circle" src="images/picTeam/dr.jpg">
 						<h4>Dayanne Rodrigues</h4>
 						<h5>Jornalista</h5>
-						<p>Acadêmica de Bacharel em jornalismo, .</p>
+						<p>Acadêmica do curso de Bacharelado em jornalismo, .</p>
+						<p><a href="#dayanne" role="button" class="btn btn-info" data-toggle="modal">Portfólio +</a>
 						<ul>
 							<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
 							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
@@ -183,7 +187,8 @@
 						<img class="img-responsive" src="images/picTeam/picT3.png">
 						<h4>Romulo Mendes</h4>
 						<h5>Desenvolvedor</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+						<p>Desenvolvedor de sistemas web, formado em Tecnologia da Informação.</p>
+						<p><a href="#romulo" role="button" class="btn btn-info" data-toggle="modal">Portfólio +</a>
 						<ul>
 							<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
 							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
@@ -203,10 +208,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 bar">
-					<div class="progB chart" data-percent="64"  data-animate="3500">
+					<div class="progB chart" data-percent="89"  data-animate="3500">
 						<div class="chart chart-content">
-							<div class="percentage" data-percent="64">
-							  <span class="percent">64</span>
+							<div class="percentage" data-percent="89">
+							  <span class="percent">89</span>
 							</div>
 						</div>
 					</div>
@@ -216,10 +221,10 @@
 					</div>
 				</div>
 				<div class="col-md-3 bar">
-					<div class="progB chart" data-percent="22"  data-animate="3500">
+					<div class="progB chart" data-percent="98"  data-animate="3500">
 						<div class="chart chart-content">
-							<div class="percentage" data-percent="22">
-							  <span class="percent">22</span>
+							<div class="percentage" data-percent="98">
+							  <span class="percent">98</span>
 							</div>
 						</div>
 					</div>
@@ -229,10 +234,10 @@
 					</div>
 				</div>
 				<div class="col-md-3 bar ">
-					<div class="progB chart" data-percent="84"  data-animate="3500">
+					<div class="progB chart" data-percent="75"  data-animate="3500">
 						<div class="chart chart-content">
-							<div class="percentage" data-percent="22">
-							  <span class="percent">84</span>
+							<div class="percentage" data-percent="75">
+							  <span class="percent">75</span>
 							</div>
 						</div>
 					</div>
@@ -242,72 +247,19 @@
 					</div>
 				</div>
 				<div class="col-md-3 bar ">
-					<div class="progB chart" data-percent="45"  data-animate="3500">
+					<div class="progB chart" data-percent="68"  data-animate="3500">
 						<div class="chart chart-content">
-							<div class="percentage" data-percent="45">
-							  <span class="percent">45</span>
+							<div class="percentage" data-percent="68">
+							  <span class="percent">68</span>
 							</div>
 						</div>
 					</div>
 					<div class="textP">
-						<h3>Woocommerce</h3>
+						<h3>PHP</h3>
 						<p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
 					</div>
 				</div>
 			</div>
-		</div>	
-		
-		
-		<div class="container">
-			<div class="row aboutUs">
-				<div class="col-md-12 ">
-					<h3>What Our Customers Say About Us?</h3>
-				</div>
-			</div>
-		</div>
-		
-		<div style="position: relative;">
-		
-			<div class="container">
-				<div class="row about">
-					<div class="col-md-6">
-						<div class="about1">
-						<img class="pic1Ab" src="images/picAbout/aboutP1.png">
-							<h3>Anna Smith, Company Inc.</h3>
-							<p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra, felis et venenatis. aliquam, nulla nisi lobortis elit ac.</p>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="about2">
-						<img class="pic2Ab" src="images/picAbout/aboutP2.png">
-							<h3>John Doe, Company Inc.</h3>
-							<p>Consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo, adipiscing auctor, ut auctor feugiat fermentum nec quisque eget pharetra, felis et venenatis aliquam, nulla nisi lobortis elit, ac luctus.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		
-			<div class="horL"></div>
-		
-			<div class="container">
-				<div class="row about">
-					<div class="col-md-6">
-						<div class="about1">
-						<img class="pic1Ab" src="images/picAbout/aboutP3.png">
-							<h3>Tom Sawyer, Company Inc.</h3>
-							<p>A auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra, felis et venenatis aliquam, nulla nisi lobortis elit, acnterdum ante feugiat vitae.</p>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="about2">
-						<img class="pic2Ab" src="images/picAbout/aboutP4.png">
-							<h3>Sarah White, Company Inc.</h3>
-							<p>Ornare nibh a auctor, mauris scelerisque eu proin nec urna nec a quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra felis et venenatis aliquam, nulla nisi lobortis elit, ac eleifend nisl ante nec lorem. </p>
-						</div>
-					</div>
-				</div>
-			</div>
-		
 		</div>
     </div>
     <!--project start-->    
@@ -645,8 +597,9 @@
 			<div class="container">
 				<div class="row Ama">
 					<div class="col-md-12">
-					<h3>Got a Question? We&rsquo;re Here to Help!</h3>
-					<p>Get in touch with us</p>
+					<h3>Solicite um orçamento grátis</h3>
+					<p>Estaremos sempre dispostos a uma conversa informal para lhe ajudar a resolver seus problemas e encontrar<br>
+					a melhor forma possível de achar a solução para seus problemas.</p>
 					</div>
 				</div>
 			</div>
@@ -672,18 +625,19 @@
 						<li><i class="fa fa-home"></i>5512 Lorem Ipsum Vestibulum 666/13</li>
 						<li><i class="fa fa-phone"></i>+1 800 789 50 12, +1 800 450 6935</li>
 						<li><a href="#"><i class="fa fa-envelope"></i>mail@compname.com</li></a>
-						<li><i class="fa fa-skype"></i>compname</li>
-						<li><a href="#"><i class="fa fa-twitter"></i>Twitter</li></a>
-						<li><a href="#"><i class="fa fa-facebook-square"></i>Facebook</li></a>
-						<li><a href="#"><i class="fa fa-dribbble"></i>Dribbble</li></a>
-						<li><a href="#"><i class="fa fa-flickr"></i>Flickr</li></a>
-						<li><a href="#"><i class="fa fa-youtube-play"></i>YouTube</li></a>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="line6">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d48386.401887313725!2d-73.9407136!3d40.7147117!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1402409149092" width="100%" height="750" frameborder="0" style="border:0"></iframe>			
+			<div class="container">
+				<div class="row Ama">
+					<div class="col-md-12">
+					<h3>What&rsquo;s New?</h3>
+					<p>Get the latest news from our blog</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="container">
 			<div class="row ftext">
@@ -704,12 +658,12 @@
 			<div class="container">
 				<div class="row footer">
 					<div class="col-md-12">
-						<h3>Subscribe for Our Newsletter!</h3>
-						<p>Subscribe to our newsletter email to get notification about fresh news, latest promos, giveaways and free stuff from Skew. Stay always up-to-date!</p>
+						<h3>Assine Nossa Newsletter!</h3>
+						<p>E fique por dentro de todas as novidades de nossos serviços e acompanhe nossas notícias.</p>
 						<div class="fr">
 						<div style="display: inline-block;">
-							<input class="col-md-6 fEmail" name='Email' placeholder='Enter Your Email'/>
-							<a href="#" class="subS">Subscribe!</a>
+							<input class="col-md-6 fEmail" name='Email' placeholder='Informe seu E-Mail'/>
+							<a href="#" class="subS">Inscrever!</a>
 						</div>
 						</div>
 					</div>
@@ -732,12 +686,8 @@
 		<div class="lineBlack">
 			<div class="container">
 				<div class="row downLine">
-					<div class="col-md-12 text-right">
-						<!--input  id="searchPattern" type="search" name="pattern" value="Search the Site" onblur="if(this.value=='') {this.value='Search the Site'; }" onfocus="if(this.value =='Search the Site' ) this.value='';this.style.fontStyle='normal';" style="font-style: normal;"/-->
-						<input  id="searchPattern" type="search" placeholder="Search the Site"/><i class="glyphicon glyphicon-search" style="font-size: 13px; color:#a5a5a5;" id="iS"></i>
-					</div>
 					<div class="col-md-6 text-left copy">
-						<p>Copyright &copy; 2014 Timber HTML Template. All Rights Reserved.</p>
+						<p>Copyright &copy; 2015 Sistemas Guarani. Todos os Direitos Reservados.</p>
 					</div>
 					<div class="col-md-6 text-right dm">
 						<ul id="downMenu">
